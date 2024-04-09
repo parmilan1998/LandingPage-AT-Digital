@@ -7,6 +7,7 @@ const Questions = () => {
   const toggleAnswer = (id) => {
     setOpenQuestion(id === openQuestion ? null : id)
   }
+
   const QuestionList = [
     {
       id: 1,
@@ -38,14 +39,22 @@ const Questions = () => {
         {QuestionList.map((item, index) => (
           <div key={index} className='gap-3 bg-color rounded-lg my-3 sm:py-2'>
             <div className='flex items-center justify-between px-4 bg-color lg:h-[76px] rounded-lg'>
-              <h1 className='font-inter font-semibold text-[22px] lg:w-[798px] md:w-[638px] sm:w-[232px] py-4 text-xl leading-6 text-primaryColor'>
+              <h1
+                className={`font-inter font-semibold text-[22px] lg:w-[798px] md:w-[638px] sm:w-[232px] py-4 text-xl leading-6 ${
+                  openQuestion === item.id ? 'text-primaryColor' : 'text-black'
+                }`}
+              >
                 {item.question}
               </h1>
               <button
                 onClick={() => toggleAnswer(item.id)}
                 className='flex sm:justify-start '
               >
-                {openQuestion === item.id ? <FaMinus /> : <FaPlus />}
+                {openQuestion === item.id ? (
+                  <FaMinus className=' text-primaryColor' />
+                ) : (
+                  <FaPlus className='text-black' />
+                )}
               </button>
             </div>
             {openQuestion === item.id && (
