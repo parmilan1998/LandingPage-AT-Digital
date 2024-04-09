@@ -3,7 +3,7 @@ import React from 'react'
 const Development = () => {
   return (
     <div className='flex md:flex-row flex-col justify-center items-center gap-8 md:my-16 my-8'>
-      <div className='lg:w-[414px] h-[414px]'>
+      <div className='lg:w-[414px] md:w-[346px] sm:w-[275px]'>
         <img src='./image 2.png' alt='Development section Image' />
       </div>
       <div className='lg:w-1/3 sm:w-5/6 space-y-4'>

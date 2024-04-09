@@ -18,7 +18,7 @@ const Consulting = () => {
           Learn More
         </button>
       </div>
-      <div className='lg:w-[416px]'>
+      <div className='lg:w-[414px] md:w-[346px] sm:w-[275px]'>
         <img src='./image 1.png' alt='Development section Image' />
       </div>
     </div>

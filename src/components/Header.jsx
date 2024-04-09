@@ -60,11 +60,11 @@ const Header = () => {
         </div>
       </nav>
       {isOpen && (
-        <div className='md:hidden bg-white h-[812px] absolute w-[335px] top-0 px-4 py-5'>
+        <div className='md:hidden bg-white h-[812px] absolute w-full top-0 px-4 py-5'>
           <div className='flex justify-between'>
             <a
               href='#'
-              className='block text-black px-3 py-2 uppercase text-base font-semibold'
+              className='block text-black px-3 py-2 uppercase text-base font-semibold hover:text-primaryColor duration-200 ease-in hover:font-bold'
             >
               Home
             </a>
@@ -74,25 +74,25 @@ const Header = () => {
           </div>
           <a
             href='#'
-            className='block text-black px-3 py-2 uppercase text-base font-semibold'
+            className='block text-black px-3 py-2 uppercase text-base font-semibold hover:text-primaryColor duration-200 ease-in hover:font-bold'
           >
             Services
           </a>
           <a
             href='#'
-            className='block text-black px-3 py-2 uppercase text-base font-semibold'
+            className='block text-black px-3 py-2 uppercase text-base font-semibold hover:text-primaryColor duration-200 ease-in hover:font-bold'
           >
             About Us
           </a>
           <a
             href='#'
-            className='block text-black px-3 py-2 uppercase text-base font-semibold'
+            className='block text-black px-3 py-2 uppercase text-base font-semibold hover:text-primaryColor duration-200 ease-in hover:font-bold'
           >
             Contact Us
           </a>
           <a
             href='#'
-            className='block text-black px-3 py-2 uppercase text-base font-semibold'
+            className='block text-black px-3 py-2 uppercase text-base font-semibold hover:text-primaryColor duration-200 ease-in hover:font-bold'
           >
             Career
           </a>
