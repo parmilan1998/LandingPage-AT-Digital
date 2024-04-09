@@ -7,7 +7,7 @@ const Development = () => {
         <img src='./image 2.png' alt='Development section Image' />
       </div>
       <div className='lg:w-1/3 sm:w-5/6 space-y-4'>
-        <h1 className='font-poppins text-3xl text-primaryColor md:text-start text-center leading-8 tracking-wide font-semibold'>
+        <h1 className='font-poppins text-[27px] md:w-[393px] lg:w-[500px] text-primaryColor md:text-start text-center leading-8 tracking-wide font-semibold'>
           Web & Mobile App Development
         </h1>
         <p className='font-inter text-base font-normal leading-6 lg:w-[542px] md:w-[393px] sm:w-[335px] md:text-start text-center'>

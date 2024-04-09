@@ -4,7 +4,7 @@ const Consulting = () => {
   return (
     <div className='flex md:flex-row flex-col-reverse justify-center items-center gap-8 md:my-16 my-8  md:mx-10'>
       <div className='lg:w-1/3 sm:w-5/6 space-y-4'>
-        <h1 className=' font-poppins text-3xl md:text-2xl text-primaryColor md:text-start  text-center leading-8 tracking-wide font-semibold'>
+        <h1 className=' font-poppins text-[27px] text-primaryColor md:text-start  text-center leading-8 tracking-wide font-semibold'>
           Digital Strategy Consulting
         </h1>
         <p className='font-inter text-base font-normal leading-6 lg:w-[542px] md:w-[393px] sm:w-[335px] md:text-start text-center'>

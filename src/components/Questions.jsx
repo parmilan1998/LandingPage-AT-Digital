@@ -41,7 +41,10 @@ const Questions = () => {
               <h1 className='font-inter font-semibold text-[22px] lg:w-[798px] md:w-[638px] sm:w-[232px] py-4 text-xl leading-6 text-primaryColor'>
                 {item.question}
               </h1>
-              <button onClick={() => toggleAnswer(item.id)} className='flex sm:justify-start '>
+              <button
+                onClick={() => toggleAnswer(item.id)}
+                className='flex sm:justify-start '
+              >
                 {openQuestion === item.id ? <FaMinus /> : <FaPlus />}
               </button>
             </div>
